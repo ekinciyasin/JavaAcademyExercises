@@ -13,7 +13,7 @@ public class DataTypes {
 
         boolean isDaytime = true;
 
-        double gomezGoalStrikeQuote = 0.34;
+        double gomezGoalStrikeQuote = 2;
 
         byte javaProgramLengthWeeks = 12;
 
