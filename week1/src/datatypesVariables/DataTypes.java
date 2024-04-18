@@ -4,7 +4,8 @@ public class DataTypes {
     public static void main(String[] args) {
 
 
-        char[] initials = {'Y', 'E'};
+        char initial1 = 'Y';
+        char initial2 = 'E';
 
         int populationGermany = 83000000;
 
@@ -19,7 +20,7 @@ public class DataTypes {
         float pi = 3.14159f;
 
 
-        System.out.println("1. Initials: " + initials[0] + initials[1]);
+        System.out.println("1. Yasin Ekinci Initials: " + initial1 + initial2);
         System.out.println("2. Population in Germany: " + populationGermany);
         System.out.println("3. Population on Earth: " + populationEarth);
         System.out.println("4. Is currently daytime?: " + isDaytime);
