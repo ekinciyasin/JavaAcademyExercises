@@ -1,4 +1,4 @@
-package datatypesVariables;
+package datatypesvariables;
 
 import java.util.Scanner;
 
@@ -24,10 +24,10 @@ public class FormattingText {
         for (String word : words) {
 
                 char currentChar = word.charAt(0);
-                if (word.charAt(0) == '_' && (word.charAt(word.length() - 1) == '_' || word.charAt(word.length() - 2) == '_')) {
+                if (word.startsWith("_")  && (word.endsWith("_") || word.charAt(word.length() - 2) == '_')) {
                   String modifiedWord =  word.replace("_" , "");
                     formattedString.append(modifiedWord.toUpperCase() + " ");
-                } else if (word.charAt(0) == '#' && word.charAt(word.length() - 1) == '#'  || word.charAt(word.length() - 2) == '#') {
+                } else if (word.startsWith("#") && word.endsWith("#")  || word.charAt(word.length() - 2) == '#') {
                    String modifiedWord =  word.replace("#" , "");
                     formattedString.append(modifiedWord.toLowerCase()  + " ");
                 } else {

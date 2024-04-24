@@ -1,4 +1,4 @@
-package inputOutput;
+package inputoutput;
 
 import java.util.Scanner;
 
@@ -26,7 +26,6 @@ public class Geometry {
             System.out.printf("Enter parameter %d: ", i + 1);
             while (!scanner.hasNextDouble()) {
                 System.err.println("Please enter a number, not text.");
-
                 scanner.nextLine(); // Clear the invalid input from the scanner buffer
             }
             values[i] = scanner.nextDouble();

@@ -1,4 +1,4 @@
-package inputOutput;
+package inputoutput;
 
 public class FormattingTextOutput {
     public static void main(String[] args) {
