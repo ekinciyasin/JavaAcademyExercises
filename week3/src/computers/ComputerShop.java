@@ -1,4 +1,4 @@
-package computershop.computers;
+package computers;
 
 
 import java.util.ArrayList;

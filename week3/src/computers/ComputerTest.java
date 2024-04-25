@@ -1,4 +1,4 @@
-package computershop.computers;
+package computers;
 
 import java.util.ArrayList;
 
@@ -54,6 +54,6 @@ public class ComputerTest {
         double totalProfit = shop.calculateTotalProfit();
 
         // Print the result
-        System.out.println("The Potential profit: €" + totalProfit);
+        System.out.println("The Potential total profit: €" + totalProfit);
     }
 }

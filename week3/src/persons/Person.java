@@ -1,4 +1,4 @@
-package inheritance.persons;
+package persons;
 
 public class Person {
 
@@ -9,7 +9,7 @@ public class Person {
     private String address;
 
    public void introduce(){
-       System.out.println("Hello! I'm " + this.name+" and I am " + this.age + " years old and live in " + this.address + ".");
+       System.out.printf("Hi! I'm %s, %d years old and live in %s.\n",  name, age, address);
    }
 
 

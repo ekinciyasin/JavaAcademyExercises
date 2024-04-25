@@ -1,4 +1,4 @@
-package inheritance.persons;
+package persons;
 
 public class Student extends Person {
     private String joke;

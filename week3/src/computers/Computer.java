@@ -1,4 +1,4 @@
-package computershop.computers;
+package computers;
 
 public class Computer {
 
